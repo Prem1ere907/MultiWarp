@@ -1,5 +1,5 @@
 [build]
-  base = "Turbowarp-Unblocked"
+  base = "."
   command = "npm install && npm run prepublish && npm run build"
   publish = "build"
 

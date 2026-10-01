@@ -1,0 +1,1444 @@
+{
+  "extensions": [
+    {
+      "id": "dtbyxeroname",
+      "slug": "Deltatime",
+      "name": "Delta Time",
+      "description": "Precise delta timing blocks.",
+      "image": "images/Deltatime.svg",
+      "scratchCompatible": false
+    },
+    {
+      "id": "lmsLooksPlus",
+      "slug": "LooksPlus",
+      "name": "Looks Plus",
+      "description": "Expands upon the looks category, allowing you to show/hide, get costume data and edit SVG skins on sprites.",
+      "image": "images/LooksPlus.svg",
+      "scratchCompatible": false
+    },
+    {
+      "id": "GameJoltAPI",
+      "slug": "gamejolt",
+      "name": "Game Jolt",
+      "description": "Blocks that allow games to interact with the GameJolt API. Unofficial.",
+      "image": "images/gamejolt.png",
+      "scratchCompatible": false
+    },
+    {
+      "id": "runtimeoptions",
+      "slug": "runtime-options",
+      "name": "Runtime Options",
+      "description": "Get and modify turbo mode, framerate, interpolation, clone limit, stage size, and more.",
+      "image": "images/runtime-options.svg",
+      "scratchCompatible": false
+    },
+    {
+      "id": "stretch",
+      "slug": "stretch",
+      "name": "Stretch",
+      "description": "Stretch sprites horizontally or vertically.",
+      "image": "images/stretch.svg",
+      "scratchCompatible": false
+    },
+    {
+      "id": "strings",
+      "slug": "text",
+      "name": "Text",
+      "description": "Manipulate characters and text.",
+      "image": "images/text.svg",
+      "scratchCompatible": false
+    },
+    {
+      "id": "pointerlock",
+      "slug": "pointerlock",
+      "name": "PointerLock",
+      "description": "Adds blocks for mouse locking. Mouse x & y blocks will report the change since the previous frame while the pointer is locked. Replaces the pointerlock experiment.",
+      "image": "images/pointerlock.png",
+      "scratchCompatible": false
+    },
+    {
+      "id": "AR",
+      "slug": "ar",
+      "name": "Augmented Reality",
+      "description": "Shows image from camera and performs motion tracking, allowing 3D projects to correctly overlay virtual objects on real world.",
+      "image": "images/ar.svg",
+      "scratchCompatible": false
+    },
+    {
+      "id": "text",
+      "slug": "upstream/lab/text",
+      "name": "Animated Text",
+      "description": "An easy way to display and animate text. Compatible with Scratch Lab's Animated Text experiment.",
+      "image": "images/upstream/lab/text.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "LilyMakesThings"
+        },
+        {
+          "name": "GarboMuffin"
+        }
+      ]
+    },
+    {
+      "id": "faceSensing",
+      "slug": "upstream/lab/face-sensing",
+      "name": "Face Sensing",
+      "description": "Sense faces with the camera.",
+      "image": "images/upstream/lab/face-sensing.svg",
+      "scratchCompatible": true,
+      "by": [
+        {
+          "name": "GarboMuffin"
+        }
+      ]
+    },
+    {
+      "id": "videoSprites",
+      "slug": "upstream/lab/video-sprites",
+      "name": "Video Sprites",
+      "description": "Replace sprites with a live video feed. Compatible with Scratch Lab's Video Sprites experiment.",
+      "image": "images/upstream/lab/video-sprites.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "Staevski_G",
+          "link": "https://scratch.mit.edu/users/Gogoi-does-things/"
+        }
+      ]
+    },
+    {
+      "id": "Gamepad",
+      "slug": "upstream/gamepad",
+      "name": "Gamepad",
+      "description": "Directly access gamepads instead of just mapping buttons to keys.",
+      "image": "images/upstream/gamepad.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "GarboMuffin"
+        }
+      ]
+    },
+    {
+      "id": "griffpatch",
+      "slug": "upstream/box2d",
+      "name": "Box2D Physics",
+      "description": "Two dimensional physics.",
+      "image": "images/upstream/box2d.svg",
+      "scratchCompatible": false,
+      "original": [
+        {
+          "name": "griffpatch",
+          "link": "https://scratch.mit.edu/users/griffpatch/"
+        }
+      ]
+    },
+    {
+      "id": "files",
+      "slug": "upstream/files",
+      "name": "Files",
+      "description": "Read and download files.",
+      "image": "images/upstream/files.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "GarboMuffin"
+        }
+      ]
+    },
+    {
+      "id": "MouseCursor",
+      "slug": "upstream/cursor",
+      "name": "Mouse Cursor",
+      "description": "Use custom cursors or hide the cursor. Also allows replacing the cursor with any costume image.",
+      "image": "images/upstream/cursor.png",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "Samq64"
+        },
+        {
+          "name": "GarboMuffin"
+        }
+      ]
+    },
+    {
+      "id": "fetch",
+      "slug": "upstream/fetch",
+      "name": "Fetch",
+      "description": "Make requests to the broader internet.",
+      "image": "images/upstream/fetch.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "GarboMuffin"
+        }
+      ]
+    },
+    {
+      "id": "localstorage",
+      "slug": "upstream/local-storage",
+      "name": "Local Storage",
+      "description": "Store data persistently. Like cookies, but better.",
+      "image": "images/upstream/local-storage.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "infernostars"
+        },
+        {
+          "name": "GarboMuffin"
+        }
+      ]
+    },
+    {
+      "id": "truefantombase",
+      "slug": "upstream/true-fantom/base",
+      "name": "Base",
+      "description": "Convert numbers between bases.",
+      "image": "images/upstream/true-fantom/base.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "TrueFantom",
+          "link": "https://scratch.mit.edu/users/TrueFantom/"
+        }
+      ]
+    },
+    {
+      "id": "Bitwise",
+      "slug": "upstream/bitwise",
+      "name": "Bitwise",
+      "description": "Blocks that operate on the binary representation of numbers in computers.",
+      "image": "images/upstream/bitwise.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "TrueFantom",
+          "link": "https://scratch.mit.edu/users/TrueFantom/"
+        }
+      ]
+    },
+    {
+      "id": "skyhigh173BigInt",
+      "slug": "upstream/Skyhigh173/bigint",
+      "name": "BigInt",
+      "description": "Math blocks that work on infinitely large integers (no decimals).",
+      "image": "images/upstream/Skyhigh173/bigint.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "Skyhigh173",
+          "link": "https://scratch.mit.edu/users/Skyhigh173/"
+        }
+      ]
+    },
+    {
+      "id": "utilities",
+      "slug": "upstream/utilities",
+      "name": "Utilities",
+      "description": "A bunch of interesting blocks.",
+      "image": "images/upstream/utilities.svg",
+      "scratchCompatible": false,
+      "original": [
+        {
+          "name": "Sheep_maker",
+          "link": "https://scratch.mit.edu/users/Sheep_maker/"
+        }
+      ]
+    },
+    {
+      "id": "lmsVideo",
+      "slug": "upstream/Lily/Video",
+      "name": "Video",
+      "description": "Play videos from URLs.",
+      "image": "images/upstream/Lily/Video.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "LilyMakesThings",
+          "link": "https://scratch.mit.edu/users/LilyMakesThings/"
+        },
+        {
+          "name": "SharkPool"
+        },
+        {
+          "name": "Fath11",
+          "link": "https://scratch.mit.edu/users/fath11/"
+        }
+      ]
+    },
+    {
+      "id": "iframe",
+      "slug": "upstream/iframe",
+      "name": "Iframe",
+      "description": "Display webpages or HTML over the stage.",
+      "image": "images/upstream/iframe.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "GarboMuffin"
+        }
+      ]
+    },
+    {
+      "id": "clayhtmlencode",
+      "slug": "upstream/Clay/htmlEncode",
+      "name": "HTML Encode",
+      "description": "Escape untrusted text to safely include in HTML.",
+      "image": "images/upstream/Clay/htmlEncode.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "clay-rip"
+        }
+      ]
+    },
+    {
+      "id": "xeltallivclipblend",
+      "slug": "upstream/Xeltalliv/clippingblending",
+      "name": "Clipping & Blending",
+      "description": "Clipping outside of a specified rectangular area and different color blending modes.",
+      "image": "images/upstream/Xeltalliv/clippingblending.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "Vadik1",
+          "link": "https://scratch.mit.edu/users/Vadik1/"
+        }
+      ]
+    },
+    {
+      "id": "clipboard",
+      "slug": "upstream/clipboard",
+      "name": "Clipboard",
+      "description": "Read and write from the system clipboard.",
+      "image": "images/upstream/clipboard.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "tomyo-code"
+        },
+        {
+          "name": "AdamMady"
+        },
+        {
+          "name": "NamelessCat",
+          "link": "https://scratch.mit.edu/users/NamelessCat/"
+        }
+      ]
+    },
+    {
+      "id": "penP",
+      "slug": "upstream/obviousAlexC/penPlus",
+      "name": "Pen Plus V7",
+      "description": "Advanced rendering capabilities.",
+      "image": "images/upstream/obviousAlexC/penPlus.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "ObviousAlexC",
+          "link": "https://scratch.mit.edu/users/pinksheep2917/"
+        },
+        {
+          "name": "Pen-Group"
+        }
+      ]
+    },
+    {
+      "id": "betterpen",
+      "slug": "upstream/penplus",
+      "name": "Pen Plus V5 (Old)",
+      "description": "Replaced by Pen Plus V7.",
+      "image": "images/upstream/penplus.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "ObviousAlexC",
+          "link": "https://scratch.mit.edu/users/pinksheep2917/"
+        }
+      ]
+    },
+    {
+      "id": "xeltallivSimple3D",
+      "slug": "upstream/Xeltalliv/simple3D",
+      "name": "Simple 3D",
+      "description": "Make GPU accelerated 3D projects easily.",
+      "image": "images/upstream/Xeltalliv/simple3D.png",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "Vadik1",
+          "link": "https://scratch.mit.edu/users/Vadik1/"
+        }
+      ]
+    },
+    {
+      "id": "lmsSkins",
+      "slug": "upstream/Lily/Skins",
+      "name": "Skins",
+      "description": "Have your sprites render as other images or costumes.",
+      "image": "images/upstream/Lily/Skins.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "LilyMakesThings",
+          "link": "https://scratch.mit.edu/users/LilyMakesThings/"
+        }
+      ]
+    },
+    {
+      "id": "obviousalexsensing",
+      "slug": "upstream/obviousAlexC/SensingPlus",
+      "name": "Sensing Plus",
+      "description": "An extension to the sensing category.",
+      "image": "images/upstream/obviousAlexC/SensingPlus.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "ObviousAlexC",
+          "link": "https://scratch.mit.edu/users/pinksheep2917/"
+        }
+      ]
+    },
+    {
+      "id": "cubesterKeySimulation",
+      "slug": "upstream/CubesterYT/KeySimulation",
+      "name": "Key Simulation",
+      "description": "Simulate key presses and mouse clicks.",
+      "image": "images/upstream/CubesterYT/KeySimulation.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "CubesterYT",
+          "link": "https://scratch.mit.edu/users/CubesterYT/"
+        }
+      ]
+    },
+    {
+      "id": "lmsclonesplus",
+      "slug": "upstream/Lily/ClonesPlus",
+      "name": "Clones Plus",
+      "description": "Expansion of Scratch's clone features.",
+      "image": "images/upstream/Lily/ClonesPlus.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "LilyMakesThings",
+          "link": "https://scratch.mit.edu/users/LilyMakesThings/"
+        }
+      ]
+    },
+    {
+      "id": "lmsMoreEvents",
+      "slug": "upstream/Lily/MoreEvents",
+      "name": "More Events",
+      "description": "Start your scripts in new ways.",
+      "image": "images/upstream/Lily/MoreEvents.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "LilyMakesThings",
+          "link": "https://scratch.mit.edu/users/LilyMakesThings/"
+        }
+      ]
+    },
+    {
+      "id": "SPmessagePlus",
+      "slug": "upstream/SharkPool/Messages-Plus",
+      "name": "Messages+",
+      "description": "Powerful new message blocks that work with vanilla broadcasts.",
+      "image": "images/upstream/SharkPool/Messages-Plus.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "id": "lmsListTools",
+      "slug": "upstream/Lily/ListTools",
+      "name": "List Tools",
+      "description": "An assortment of new ways to interact with lists.",
+      "image": "images/upstream/Lily/ListTools.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "LilyMakesThings",
+          "link": "https://scratch.mit.edu/users/LilyMakesThings/"
+        }
+      ]
+    },
+    {
+      "id": "mobilekeyboard0419",
+      "slug": "upstream/veggiecan/mobilekeyboard",
+      "name": "Mobile Keyboard",
+      "description": "Show the keyboard on mobile devices and get the users input without showing any input modal.",
+      "image": "images/upstream/veggiecan/mobilekeyboard.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "veggiecan0419"
+        }
+      ]
+    },
+    {
+      "id": "nkmoremotion",
+      "slug": "upstream/NexusKitten/moremotion",
+      "name": "More Motion",
+      "description": "More motion-related blocks.",
+      "image": "images/upstream/NexusKitten/moremotion.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "NamelessCat",
+          "link": "https://scratch.mit.edu/users/NamelessCat/"
+        }
+      ]
+    },
+    {
+      "id": "cubesterWindowControls",
+      "slug": "upstream/CubesterYT/WindowControls",
+      "name": "Window Controls",
+      "description": "Move, resize, rename the window, enter fullscreen, get screen size, and more.",
+      "image": "images/upstream/CubesterYT/WindowControls.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "CubesterYT",
+          "link": "https://scratch.mit.edu/users/CubesterYT/"
+        }
+      ],
+      "original": [
+        {
+          "name": "BlueDome77"
+        }
+      ]
+    },
+    {
+      "id": "fullscreen0419",
+      "slug": "upstream/veggiecan/browserfullscreen",
+      "name": "Browser Fullscreen",
+      "description": "Enter and exit fullscreen mode.",
+      "image": "images/upstream/veggiecan/browserfullscreen.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "Veggiecan0419"
+        }
+      ]
+    },
+    {
+      "id": "shreder95resolution",
+      "slug": "upstream/shreder95ua/resolution",
+      "name": "Screen Resolution",
+      "description": "Get the resolution of the primary screen.",
+      "image": "images/upstream/shreder95ua/resolution.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "shreder95ua",
+          "link": "https://scratch.mit.edu/users/shreder95ua/"
+        }
+      ]
+    },
+    {
+      "id": "xmerclosecontrol",
+      "slug": "upstream/XmerOriginals/closecontrol",
+      "name": "Ask Before Closing Tab",
+      "description": "Show a prompt when someone tries to close the tab.",
+      "image": "images/upstream/XmerOriginals/closecontrol.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "XmerOriginals",
+          "link": "https://scratch.mit.edu/users/XmerOriginals/"
+        }
+      ]
+    },
+    {
+      "id": "navigatorinfo",
+      "slug": "upstream/navigator",
+      "name": "Navigator",
+      "description": "Details about the user's browser and operating system.",
+      "image": "images/upstream/navigator.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "GarboMuffin"
+        }
+      ]
+    },
+    {
+      "id": "battery",
+      "slug": "upstream/battery",
+      "name": "Battery",
+      "description": "Access information about the battery of phones or laptops. May not work on all devices and browsers.",
+      "image": "images/upstream/battery.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "GarboMuffin"
+        }
+      ]
+    },
+    {
+      "id": "pwldevvibration",
+      "slug": "upstream/PwLDev/vibration",
+      "name": "Vibration",
+      "description": "Control the device's vibration. Only works on Chrome for Android.",
+      "image": "images/upstream/PwLDev/vibration.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "PwLDev",
+          "link": "https://scratch.mit.edu/users/PwLDev/"
+        }
+      ]
+    },
+    {
+      "id": "shovelcss",
+      "slug": "upstream/TheShovel/CustomStyles",
+      "name": "Custom Styles",
+      "description": "Customize the appearance of variable monitors and prompts in your project.",
+      "image": "images/upstream/TheShovel/CustomStyles.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "TheShovel"
+        }
+      ]
+    },
+    {
+      "id": "shovelColorPicker",
+      "slug": "upstream/TheShovel/ColorPicker",
+      "name": "Color Picker",
+      "description": "Access your system's color picker.",
+      "image": "images/upstream/TheShovel/ColorPicker.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "TheShovel"
+        }
+      ]
+    },
+    {
+      "id": "nkcontrols",
+      "slug": "upstream/NexusKitten/controlcontrols",
+      "name": "Control Controls",
+      "description": "Show and hide the project's controls.",
+      "image": "images/upstream/NexusKitten/controlcontrols.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "NamelessCat",
+          "link": "https://scratch.mit.edu/users/NexusKitten/"
+        }
+      ]
+    },
+    {
+      "id": "mdwaltersnotifications",
+      "slug": "upstream/mdwalters/notifications",
+      "name": "Notifications",
+      "description": "Display notifications.",
+      "image": "images/upstream/mdwalters/notifications.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "mdwalters"
+        }
+      ]
+    },
+    {
+      "id": "Encoding",
+      "slug": "upstream/encoding",
+      "name": "Encoding",
+      "description": "Encode and decode strings into their unicode numbers, base 64, or URLs.",
+      "image": "images/upstream/encoding.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "-SIPC-"
+        }
+      ]
+    },
+    {
+      "id": "SPtuneShark3",
+      "slug": "upstream/SharkPool/Tune-Shark-V3",
+      "name": "Tune Shark V3",
+      "description": "An advanced audio engine, providing complex sound control.",
+      "image": "images/upstream/SharkPool/Tune-Shark-V3.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "id": "lmsSoundExpanded",
+      "slug": "upstream/Lily/SoundExpanded",
+      "name": "Sound Expanded",
+      "description": "Adds more sound-related blocks.",
+      "image": "images/upstream/Lily/SoundExpanded.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "LilyMakesThings",
+          "link": "https://scratch.mit.edu/users/LilyMakesThings/"
+        }
+      ]
+    },
+    {
+      "id": "lmsTempVars2",
+      "slug": "upstream/Lily/TempVariables2",
+      "name": "Temporary Variables",
+      "description": "Create disposable runtime or thread variables.",
+      "image": "images/upstream/Lily/TempVariables2.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "LilyMakesThings",
+          "link": "https://scratch.mit.edu/users/LilyMakesThings/"
+        },
+        {
+          "name": "Mio",
+          "link": "https://scratch.mit.edu/users/0znzw/"
+        }
+      ]
+    },
+    {
+      "id": "lmsTimers",
+      "slug": "upstream/Lily/MoreTimers",
+      "name": "More Timers",
+      "description": "Control several timers at once.",
+      "image": "images/upstream/Lily/MoreTimers.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "LilyMakesThings",
+          "link": "https://scratch.mit.edu/users/LilyMakesThings/"
+        }
+      ]
+    },
+    {
+      "id": "clouddataping",
+      "slug": "upstream/clouddata-ping",
+      "name": "Ping Cloud Data",
+      "description": "Determine whether a cloud variable server is probably up.",
+      "image": "images/upstream/clouddata-ping.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "GarboMuffin"
+        }
+      ],
+      "original": [
+        {
+          "name": "TheShovel"
+        }
+      ]
+    },
+    {
+      "id": "cloudlink",
+      "slug": "upstream/cloudlink",
+      "name": "CloudLink V4",
+      "description": "A powerful WebSocket extension for Scratch.",
+      "image": "images/upstream/cloudlink.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "MikeDEV"
+        }
+      ]
+    },
+    {
+      "id": "truefantomnetwork",
+      "slug": "upstream/true-fantom/network",
+      "name": "Network",
+      "description": "Various blocks for interacting with the network.",
+      "image": "images/upstream/true-fantom/network.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "TrueFantom",
+          "link": "https://scratch.mit.edu/users/TrueFantom/"
+        }
+      ]
+    },
+    {
+      "id": "truefantommath",
+      "slug": "upstream/true-fantom/math",
+      "name": "Math",
+      "description": "A lot of operators blocks, from exponentiation to trigonometric functions.",
+      "image": "images/upstream/true-fantom/math.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "TrueFantom",
+          "link": "https://scratch.mit.edu/users/TrueFantom/"
+        }
+      ]
+    },
+    {
+      "id": "truefantomregexp",
+      "slug": "upstream/true-fantom/regexp",
+      "name": "RegExp",
+      "description": "Full interface for working with Regular Expressions.",
+      "image": "images/upstream/true-fantom/regexp.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "TrueFantom",
+          "link": "https://scratch.mit.edu/users/TrueFantom/"
+        }
+      ]
+    },
+    {
+      "id": "truefantomcouplers",
+      "slug": "upstream/true-fantom/couplers",
+      "name": "Couplers",
+      "description": "A few adapter blocks.",
+      "image": "images/upstream/true-fantom/couplers.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "TrueFantom",
+          "link": "https://scratch.mit.edu/users/TrueFantom/"
+        }
+      ]
+    },
+    {
+      "id": "samuelloufgeolocation",
+      "slug": "upstream/SamuelLouf/Geolocation",
+      "name": "Geolocation",
+      "description": "Get the user's current location (requires permission from browser). Not supported in desktop app or Electron packaged projects.",
+      "image": "images/upstream/SamuelLouf/Geolocation.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "SamuelLouf",
+          "link": "https://scratch.mit.edu/users/samuellouf/"
+        }
+      ]
+    },
+    {
+      "id": "dogeiscutformatnumbers",
+      "slug": "upstream/DogeisCut/FormatNumbers",
+      "name": "Format Numbers",
+      "description": "Format large numbers into AD standard, fixed decimal, comma separated, or scientific notation.",
+      "image": "images/upstream/DogeisCut/FormatNumbers.png",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "DogeisCut",
+          "link": "https://scratch.mit.edu/users/dogeiscut/"
+        }
+      ]
+    },
+    {
+      "id": "lmsAllMenus",
+      "slug": "upstream/Lily/AllMenus",
+      "name": "All Menus",
+      "description": "Special category with every menu from every Scratch category and extensions.",
+      "image": "images/upstream/Lily/AllMenus.svg",
+      "scratchCompatible": true,
+      "by": [
+        {
+          "name": "LilyMakesThings",
+          "link": "https://scratch.mit.edu/users/LilyMakesThings/"
+        }
+      ]
+    },
+    {
+      "id": "lmsHackedBlocks",
+      "slug": "upstream/Lily/HackedBlocks",
+      "name": "Hidden Block Collection",
+      "description": "Various \"hacked blocks\" that work in Scratch but are not visible in the palette.",
+      "image": "images/upstream/Lily/HackedBlocks.svg",
+      "scratchCompatible": true,
+      "by": [
+        {
+          "name": "LilyMakesThings",
+          "link": "https://scratch.mit.edu/users/LilyMakesThings/"
+        },
+        {
+          "name": "pumpkinhasapatch"
+        }
+      ]
+    },
+    {
+      "id": "lmsCast",
+      "slug": "upstream/Lily/Cast",
+      "name": "Cast",
+      "description": "Convert values between types.",
+      "image": "images/upstream/Lily/Cast.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "LilyMakesThings",
+          "link": "https://scratch.mit.edu/users/LilyMakesThings/"
+        }
+      ]
+    },
+    {
+      "id": "sipctime",
+      "slug": "upstream/-SIPC-/time",
+      "name": "Time",
+      "description": "Blocks for times, dates, and time zones.",
+      "image": "images/upstream/-SIPC-/time.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "-SIPC-"
+        },
+        {
+          "name": "SharkPool",
+          "link": "https://scratch.mit.edu/users/DemonX5/"
+        }
+      ]
+    },
+    {
+      "id": "sipcconsole",
+      "slug": "upstream/-SIPC-/consoles",
+      "name": "Consoles",
+      "description": "Blocks that interact with the JavaScript console built in to your browser's developer tools.",
+      "image": "images/upstream/-SIPC-/consoles.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "-SIPC-"
+        }
+      ]
+    },
+    {
+      "id": "zxmushroom63searchparams",
+      "slug": "upstream/ZXMushroom63/searchApi",
+      "name": "Search Params",
+      "description": "Interact with URL search parameters: the part of the URL after a question mark.",
+      "image": "images/upstream/ZXMushroom63/searchApi.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "ZXMushroom63"
+        }
+      ]
+    },
+    {
+      "id": "ShovelUtils",
+      "slug": "upstream/TheShovel/ShovelUtils",
+      "name": "ShovelUtils",
+      "description": "A bunch of miscellaneous blocks.",
+      "image": "images/upstream/TheShovel/ShovelUtils.png",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "TheShovel"
+        },
+        {
+          "name": "Mio",
+          "link": "https://scratch.mit.edu/users/0znzw/"
+        }
+      ]
+    },
+    {
+      "id": "lmsAssets",
+      "slug": "upstream/Lily/Assets",
+      "name": "Asset Manager",
+      "description": "Add, remove, and get data from various types of assets.",
+      "image": "images/upstream/Lily/Assets.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "LilyMakesThings",
+          "link": "https://scratch.mit.edu/users/LilyMakesThings/"
+        },
+        {
+          "name": "Mio",
+          "link": "https://scratch.mit.edu/users/0znzw/"
+        }
+      ]
+    },
+    {
+      "id": "SPASfontManager",
+      "slug": "upstream/SharkPool/Font-Manager",
+      "name": "Font Manager",
+      "description": "Add, delete, and manage fonts.",
+      "image": "images/upstream/SharkPool/Font-Manager.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "SharkPool"
+        },
+        {
+          "name": "Mio",
+          "link": "https://scratch.mit.edu/users/0znzw/"
+        }
+      ]
+    },
+    {
+      "id": "dninwakelock",
+      "slug": "upstream/DNin/wake-lock",
+      "name": "Wake Lock",
+      "description": "Prevent the computer from falling asleep.",
+      "image": "images/upstream/DNin/wake-lock.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "D-ScratchNinja",
+          "link": "https://scratch.mit.edu/users/D-ScratchNinja/"
+        }
+      ]
+    },
+    {
+      "id": "skyhigh173JSON",
+      "slug": "upstream/Skyhigh173/json",
+      "name": "JSON",
+      "description": "Handle JSON strings and arrays.",
+      "image": "images/upstream/Skyhigh173/json.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "Skyhigh173",
+          "link": "https://scratch.mit.edu/users/Skyhigh173/"
+        },
+        {
+          "name": "Mio",
+          "link": "https://scratch.mit.edu/users/0znzw/"
+        }
+      ]
+    },
+    {
+      "id": "mbwxml",
+      "slug": "upstream/mbw/xml",
+      "name": "XML",
+      "description": "Create and extract values from XML.",
+      "image": "images/upstream/mbw/xml.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "mybearworld",
+          "link": "https://scratch.mit.edu/users/mybearworld/"
+        }
+      ]
+    },
+    {
+      "id": "numericalencoding2",
+      "slug": "upstream/numerical-encoding-2",
+      "name": "Numerical Encoding V2",
+      "description": "Encode strings as numbers for cloud variables. Not compatible with V1 due to using much more efficient format.",
+      "image": "images/upstream/numerical-encoding-2.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "GarboMuffin"
+        }
+      ]
+    },
+    {
+      "id": "cs2627883NumericalEncoding",
+      "slug": "upstream/cs2627883/numericalencoding",
+      "name": "Numerical Encoding V1",
+      "description": "Use V2 instead as it is more efficient. V1 only exists for compatibility reasons.",
+      "image": "images/upstream/numerical-encoding.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "cs2627883",
+          "link": "https://scratch.mit.edu/users/cs2627883/"
+        }
+      ]
+    },
+    {
+      "id": "SPcamera",
+      "slug": "upstream/SharkPool/Camera",
+      "name": "Camera V2",
+      "description": "Move the visible part of the stage.",
+      "image": "images/upstream/SharkPool/Camera.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "SharkPool"
+        }
+      ]
+    },
+    {
+      "id": "DTcameracontrols",
+      "slug": "upstream/DT/cameracontrols",
+      "name": "Camera V1 (Buggy)",
+      "description": "Move the visible part of the stage.",
+      "image": "images/upstream/DT/cameracontrols.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "DT"
+        }
+      ]
+    },
+    {
+      "id": "theshovelcanvaseffects",
+      "slug": "upstream/TheShovel/CanvasEffects",
+      "name": "Canvas Effects",
+      "description": "Apply visual effects to the entire stage.",
+      "image": "images/upstream/TheShovel/CanvasEffects.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "TheShovel"
+        },
+        {
+          "name": "SharkPool",
+          "link": "https://scratch.mit.edu/users/DemonX5/"
+        }
+      ]
+    },
+    {
+      "id": "lbdrawtest",
+      "slug": "upstream/Longboost/color_channels",
+      "name": "RGB Channels",
+      "description": "Only render or stamp certain RGB channels.",
+      "image": "images/upstream/Longboost/color_channels.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "Longboost"
+        }
+      ]
+    },
+    {
+      "id": "cst1229zip",
+      "slug": "upstream/CST1229/zip",
+      "name": "Zip",
+      "description": "Create and edit .zip format files, including .sb3 files.",
+      "image": "images/upstream/CST1229/zip.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "CST1229",
+          "link": "https://scratch.mit.edu/users/CST1229/"
+        }
+      ]
+    },
+    {
+      "id": "images",
+      "slug": "upstream/CST1229/images",
+      "name": "Images",
+      "description": "Some blocks for working with images.",
+      "image": "images/upstream/CST1229/images.svg",
+      "scratchCompatible": false,
+      "original": [
+        {
+          "name": "CST1229",
+          "link": "https://scratch.mit.edu/users/CST1229/"
+        }
+      ]
+    },
+    {
+      "id": "shovellzcompress",
+      "slug": "upstream/TheShovel/LZ-String",
+      "name": "LZ Compress",
+      "description": "Compress and decompress text using lz-string.",
+      "image": "images/upstream/TheShovel/LZ-String.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "TheShovel"
+        }
+      ]
+    },
+    {
+      "id": "0832rxfs2",
+      "slug": "upstream/0832/rxFS2",
+      "name": "rxFS",
+      "description": "Blocks for interacting with a virtual in-memory filesystem.",
+      "image": "images/upstream/0832/rxFS2.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "0832"
+        }
+      ]
+    },
+    {
+      "id": "nexuskittensgrab",
+      "slug": "upstream/NexusKitten/sgrab",
+      "name": "S-Grab",
+      "description": "Get information about Scratch projects and Scratch users.",
+      "image": "images/upstream/NexusKitten/sgrab.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "NamelessCat",
+          "link": "https://scratch.mit.edu/users/NamelessCat/"
+        }
+      ]
+    },
+    {
+      "id": "nonameawagraph",
+      "slug": "upstream/NOname-awa/graphics2d",
+      "name": "Graphics 2D",
+      "description": "Blocks to compute lengths, angles, and areas in two dimensions.",
+      "image": "images/upstream/NOname-awa/graphics2d.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "NOname-awa"
+        }
+      ]
+    },
+    {
+      "id": "nonameawacomparisons",
+      "slug": "upstream/NOname-awa/more-comparisons",
+      "name": "More Comparisons",
+      "description": "More comparison blocks.",
+      "image": "images/upstream/NOname-awa/more-comparisons.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "NOname-awa"
+        }
+      ]
+    },
+    {
+      "id": "jeremygamerTweening",
+      "slug": "upstream/JeremyGamer13/tween",
+      "name": "Tween",
+      "description": "Easing methods for smooth animations.",
+      "image": "images/upstream/JeremyGamer13/tween.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "JeremyGamer13",
+          "link": "https://scratch.mit.edu/users/JeremyGamer13/"
+        },
+        {
+          "name": "Fath11",
+          "link": "https://scratch.mit.edu/users/Fath11/"
+        }
+      ]
+    },
+    {
+      "id": "RixxyX",
+      "slug": "upstream/rixxyx",
+      "name": "RixxyX",
+      "description": "Various utility blocks.",
+      "image": "images/upstream/rixxyx.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "RixTheTyrunt",
+          "link": "https://scratch.mit.edu/users/RixTheTyrunt/"
+        }
+      ]
+    },
+    {
+      "id": "lmsutilsblocks",
+      "slug": "upstream/Lily/lmsutils",
+      "name": "Lily's Toolbox",
+      "description": "Previously called LMS Utilities.",
+      "image": "images/upstream/Lily/lmsutils.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "LilyMakesThings",
+          "link": "https://scratch.mit.edu/users/LilyMakesThings/"
+        }
+      ]
+    },
+    {
+      "id": "qxsckdataanalysis",
+      "slug": "upstream/qxsck/data-analysis",
+      "name": "Data Analysis",
+      "description": "Blocks to compute means, medians, maximums, minimums, variances, and modes.",
+      "image": "images/upstream/qxsck/data-analysis.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "qxsck",
+          "link": "https://scratch.mit.edu/users/qxsck/"
+        }
+      ]
+    },
+    {
+      "id": "qxsckvarandlist",
+      "slug": "upstream/qxsck/var-and-list",
+      "name": "Variable and list",
+      "description": "More blocks related to variables and lists.",
+      "image": "images/upstream/qxsck/var-and-list.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "qxsck",
+          "link": "https://scratch.mit.edu/users/qxsck/"
+        }
+      ]
+    },
+    {
+      "id": "verctedictionaries",
+      "slug": "upstream/vercte/dictionaries",
+      "name": "Dictionaries",
+      "description": "Use the power of dictionaries in your project.",
+      "image": "images/upstream/vercte/dictionaries.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "Vercte",
+          "link": "https://scratch.mit.edu/users/lolecksdeehaha/"
+        }
+      ]
+    },
+    {
+      "id": "gsaHTTPRequests",
+      "slug": "upstream/godslayerakp/http",
+      "name": "HTTP",
+      "description": "Comprehensive extension for interacting with external websites.",
+      "image": "images/upstream/godslayerakp/http.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "RedMan13",
+          "link": "https://scratch.mit.edu/users/RedMan13/"
+        }
+      ]
+    },
+    {
+      "id": "gsaWebsocket",
+      "slug": "upstream/godslayerakp/ws",
+      "name": "WebSocket",
+      "description": "Manually connect to WebSocket servers.",
+      "image": "images/upstream/godslayerakp/ws.png",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "RedMan13",
+          "link": "https://scratch.mit.edu/users/RedMan13/"
+        }
+      ]
+    },
+    {
+      "id": "cubesterWebhooks",
+      "slug": "upstream/CubesterYT/Webhooks",
+      "name": "Webhooks",
+      "description": "A modern, very capable Webhook extension.",
+      "image": "images/upstream/CubesterYT/Webhooks.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "CubesterYT",
+          "link": "https://scratch.mit.edu/users/CubesterYT/"
+        }
+      ]
+    },
+    {
+      "id": "lmscomments",
+      "slug": "upstream/Lily/CommentBlocks",
+      "name": "Comment Blocks",
+      "description": "Annotate your scripts.",
+      "image": "images/upstream/Lily/CommentBlocks.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "LilyMakesThings",
+          "link": "https://scratch.mit.edu/users/LilyMakesThings/"
+        }
+      ]
+    },
+    {
+      "id": "longvegdictionary",
+      "slug": "upstream/veggiecan/LongmanDictionary",
+      "name": "Longman Dictionary",
+      "description": "Get the definitions of words from the Longman Dictionary in your projects.",
+      "image": "images/upstream/veggiecan/LongmanDictionary.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "veggiecan0419"
+        }
+      ]
+    },
+    {
+      "id": "alestorenfc",
+      "slug": "upstream/Alestore/nfcwarp",
+      "name": "NFCWarp",
+      "description": "Allows reading data from NFC (NDEF) devices. Only works in Chrome on Android.",
+      "image": "images/upstream/Alestore/nfcwarp.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "Alestore Games",
+          "link": "https://scratch.mit.edu/users/aleb2005/"
+        }
+      ]
+    },
+    {
+      "id": "nishiowoDectalk",
+      "slug": "upstream/NishiOwO/dectalk",
+      "name": "DECtalk Text to Speech",
+      "description": "Text to speech powered by DECtalk. Does not use an internet connection, so it works offline. English only.",
+      "image": "images/upstream/NishiOwO/dectalk.png",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "NishiOwO"
+        }
+      ]
+    },
+    {
+      "id": "steamworks",
+      "slug": "upstream/steamworks",
+      "name": "Steamworks",
+      "description": "Connect your project to Steamworks APIs.",
+      "image": "images/upstream/steamworks.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "GarboMuffin"
+        }
+      ]
+    },
+    {
+      "id": "itch",
+      "slug": "upstream/itchio",
+      "name": "itch.io",
+      "description": "Blocks that interact with the itch.io website. Unofficial.",
+      "image": "images/upstream/itchio.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "softed",
+          "link": "https://scratch.mit.edu/users/softed/"
+        }
+      ]
+    },
+    {
+      "id": "NGIO",
+      "slug": "upstream/obviousAlexC/newgroundsIO",
+      "name": "Newgrounds",
+      "description": "Blocks that allow games to interact with the Newgrounds API. Unofficial.",
+      "image": "images/upstream/obviousAlexC/newgroundsIO.svg",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "ObviousAlexC",
+          "link": "https://scratch.mit.edu/users/pinksheep2917/"
+        }
+      ]
+    },
+    {
+      "id": "lmsmcutils",
+      "slug": "upstream/Lily/McUtils",
+      "name": "McUtils",
+      "description": "Helpful utilities for any fast food employee.",
+      "image": "images/upstream/Lily/McUtils.png",
+      "scratchCompatible": false,
+      "by": [
+        {
+          "name": "LilyMakesThings",
+          "link": "https://scratch.mit.edu/users/LilyMakesThings/"
+        }
+      ]
+    }
+  ]
+}
